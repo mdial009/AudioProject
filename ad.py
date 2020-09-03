@@ -24,6 +24,6 @@ def voice_input():
         print("Sphinx could not understand audio")
     except sr.RequestError as e:
         print("Sphinx error; {0}".format(e))
-    BtnVIN.config(fg=color_text,bg=color_btn)
+    # BtnVIN.config(fg=color_text,bg=color_btn)
     return a2t 
 voice_input()
